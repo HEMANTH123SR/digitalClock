@@ -1,0 +1,37 @@
+@font-face {
+    font-family:'LCD2U';
+    src: url(/LCD2U___.TTF);
+    /* font-style: normal;
+    font-weight: 100; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    width: 70%;
+    height: 60%;
+  
+    background-color: #20262E;
+    border: 30px solid #393E46;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+  font-family:'LCD2U';
+  color:#C21010;
+  font-size: xx-large;
+  font-size: 23vw;
+}
